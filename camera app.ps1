@@ -92,7 +92,7 @@ function Get-WebCamImage {
       ValueFromPipeline=$False, 
       Mandatory=$False, 
       HelpMessage="The base path that images are created")] 
-      [String]$PathBase="c:\cap\image", 
+      [String]$PathBase=([Environment]::GetFolderPath('Desktop')+'\'), 
        
       [Parameter( 
       ValueFromPipeline=$False, 
