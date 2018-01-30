@@ -334,3 +334,4 @@ $MainForm.add_Load($OnLoadForm_StateCorrection)
 $MainForm.ShowDialog()| Out-Null
 }
 Get-WebCamImage -CamIndex 0 -UseCam
+
