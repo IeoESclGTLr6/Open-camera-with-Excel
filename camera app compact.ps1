@@ -20,7 +20,7 @@ HelpMessage="Interval in seconds between each snapshot image taken")]
 ValueFromPipeline=$False,
 Mandatory=$False,
 HelpMessage="The base path that images are created")]
-[String]$PathBase=[Environment]::GetFolderPath('Desktop'),
+[String]$PathBase=([Environment]::GetFolderPath('Desktop')+'\'),
 [Parameter(
 ValueFromPipeline=$False,
 Mandatory=$false,
